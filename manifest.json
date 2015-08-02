@@ -1,26 +1,29 @@
 {
-	"name": "Google with Cortana",
-	"short_name": "GoogleWithCortana",
-	"description": "Redirect bing urls to google for use with cortana.",
+  "name": "Google with Cortana",
+  "short_name": "GoogleWithCortana",
+  "description": "Redirect bing urls to google for use with cortana.",
 
-	"author": "Sean O'Leary",
-	"homepage_url": "https://o-leary.com/",
-	"version": "1.0",
+  "author": "Sean O'Leary",
+  "homepage_url": "https://o-leary.com/",
+  "version": "1.1",
 
-	"manifest_version": 2,
+  "manifest_version": 2,
 
-	"icons": {
-		"16": "icon16.png",
-		"48": "icon48.png",
-		"128": "icon128.png"
-	},
-	"permissions": [
-		"webRequest",
-		"webRequestBlocking",
-		"*://www.bing.com/",
-		"background"
-	],
-	"background": {
-		"scripts": ["googlewithcortana.js"]
-	}
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://www.bing.com/",
+    "background"
+  ],
+  "background": {
+    "scripts": [ "googlewithcortana.js" ]
+  },
+  "externally_connectable": {
+    "matches": ["*://o-leary.com/*"]
+  }
 }
