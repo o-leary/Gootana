@@ -1,10 +1,10 @@
 {
-  "name": "Google with Cortana",
-  "short_name": "GoogleWithCortana",
+  "name": "Gootana",
+  "short_name": "Gootana",
   "description": "Redirect bing urls to google for use with cortana.",
 
   "author": "Sean O'Leary",
-  "homepage_url": "https://o-leary.com/",
+  "homepage_url": "https://o-leary.com/downloads/gootana",
   "version": "1.1",
 
   "manifest_version": 2,
@@ -21,7 +21,7 @@
     "background"
   ],
   "background": {
-    "scripts": [ "googlewithcortana.js" ]
+    "scripts": [ "gootana.js" ]
   },
   "externally_connectable": {
     "matches": ["*://o-leary.com/*"]
