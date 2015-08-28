@@ -10,7 +10,7 @@ function (request, sender, sendResponse) {
     if (request) {
         if (request.message) {
             if (request.message == "version") {
-                sendResponse({ version: "1.1" });
+                sendResponse({ version: "1.2" });
             }
         }
     }
